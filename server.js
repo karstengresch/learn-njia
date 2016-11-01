@@ -18,3 +18,15 @@ function sendFile(response, filePath, fileContents) {
   );
   response.end(fileContents);
 }
+
+function serveStatic(response, cache, absPath) {
+  if (cache[absPath]) {
+
+    } else {
+
+
+
+      }
+
+
+}
