@@ -26,12 +26,20 @@ function serveStatic(response, cache, absPath) {
         fs.exists(absPath, 
          
            function(exists) {
-
-
-
-        });
-
-
+              if (exists) {
+                fs.readFile(absPath, 
+                  function(err, data) {
+                    if (err) {
+                      send404(response);
+                    } else {
+                      cache[absPath] = data;
+                      sendFile(response, absPath, data);
+                    }
+                  }
+              } else {
+                 send404(response);
+              }
+            });
       }
 
 
