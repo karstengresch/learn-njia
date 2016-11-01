@@ -23,7 +23,9 @@ function serveStatic(response, cache, absPath) {
   if (cache[absPath]) {
       sendFile(response, absPath, cache[absPath]);
     } else {
-        fs.exists(absPath, function(exists) {
+        fs.exists(absPath, 
+         
+           function(exists) {
 
 
 
@@ -33,4 +35,3 @@ function serveStatic(response, cache, absPath) {
       }
 
 
-}
