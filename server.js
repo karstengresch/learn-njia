@@ -55,3 +55,7 @@ var server = http.createServer(
                                   serveStatic(response, cache, absPath);
                                 }));
 
+server.listen(3030, function() {
+
+  
+});
