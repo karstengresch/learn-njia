@@ -23,9 +23,7 @@ function serveStatic(response, cache, absPath) {
   if (cache[absPath]) {
       sendFile(response, absPath, cache[absPath]);
     } else {
-        fs.exists(absPath, 
-         
-           function(exists) {
+        fs.exists(absPath, function(exists) {
               if (exists) {
                 fs.readFile(absPath, 
                   function(err, data) {
@@ -35,12 +33,13 @@ function serveStatic(response, cache, absPath) {
                       cache[absPath] = data;
                       sendFile(response, absPath, data);
                     }
-                  }
+                  });
               } else {
                  send404(response);
               }
             });
       }
+    }
 
 var server = http.createServer(
                                 function(request, response {
