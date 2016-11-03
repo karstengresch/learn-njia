@@ -1,0 +1,222 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "sche",
+		"selected_items":
+		[
+			[
+				"sche",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"KeybindingHelper: Show Command Assistant"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/karsten/none/dokumente/Finanzen/Steuer/2010/Familie_Gresch.s11",
+		"/Users/karsten/none/home/.dovecot.sieve.log",
+		"/private/var/folders/8s/zf46l0p94ms2k5q_2jpy1w6r0000gn/T/com.devstorm.dcommander/AJ_Columned_Hall_Readme.txt",
+		"/Users/karsten/none/home/.dovecot.svbin",
+		"/Users/karsten/SpiderOak Hive/kg/buecher/2015_XING_und_Co NEW COPY.scriv/Files/version.txt",
+		"/Users/karsten/Desktop/2016-07-20.csv",
+		"/Users/karsten/dev/ext/rhsa/demo/bpms-generic-loan-demo-master/support/application-roles.properties",
+		"/Users/karsten/dev/ext/rhsa/local_install/bpms-mortgage-demo-master/init.sh",
+		"/Users/karsten/dev/ext/rhsa/local_install/bpms-mortgage-demo-master/target/jboss-eap-6.4/vault.keystore",
+		"/Users/karsten/Downloads/export-2.tsv",
+		"/Users/karsten/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5238730E-8EAC-409F-898A-25BD9135A122/03 - Network and Scoring Rules.txt",
+		"/Users/karsten/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/karsten/dev/ext/rhsa/image/bento/builds/Vagrantfile",
+		"/Users/karsten/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/karsten/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/karsten/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"PAth",
+			"speicher",
+			"anyof",
+			"body",
+			"\t;",
+			"  ;",
+			"     ;",
+			"\t         ;",
+			";   EUR;",
+			"\t;",
+			"          ",
+			"\\t\\t",
+			"f",
+			"\\t\\t",
+			" Quittung erforderlich",
+			"  Quittung erforderlich",
+			" EUR ",
+			"EUR "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			";",
+			";EUR;",
+			";   ",
+			"\\t    ",
+			"    ",
+			"\\t\\tEUR\\t\\t    ",
+			"EUR    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "learn-njia.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
