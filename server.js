@@ -51,6 +51,7 @@ var server = http.createServer(
                                     filePath = 'public' + request.url; 
                                   }
 
-
+                                  var absPath = './' + filePath;
+                                  serveStatic(response, cache, absPath);
                                 }));
 
