@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
-var mime = require('mime');
+// var mime = require('mime');
 var cache = {};
 
 // helper functions
@@ -42,7 +42,7 @@ function serveStatic(response, cache, absPath) {
     }
 
 var server = http.createServer(
-                                function(request, response {
+                                function(request, response) {
                                   var filePath = false;
                                   if (request.url == '/') {
                                     filePath = 'public/index.html';
@@ -52,7 +52,7 @@ var server = http.createServer(
 
                                   var absPath = './' + filePath;
                                   serveStatic(response, cache, absPath);
-                                }));
+                                });
 
 server.listen(3030, function() {
   console.log("Chat server listening on port 3030");
