@@ -14,7 +14,8 @@ a {
 }
 
 #room {
-
+  background-color: #DDD;
+  margin-bottom: 1em;
 }
 
 #messages {
