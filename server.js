@@ -59,3 +59,4 @@ server.listen(3030, function() {
 });
 
 var chatServer = require('.lib/chat_server');
+chatServer.listen(server);
