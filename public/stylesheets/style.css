@@ -19,5 +19,11 @@ a {
 }
 
 #messages {
-
+  width: 690px;
+  height: 300px;
+  overflow: auto;
+  background-color: #EEE;
+  margin-bottom: 1em;
+  margin-right: 10px;
+    
 }
