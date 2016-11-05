@@ -57,3 +57,5 @@ var server = http.createServer(
 server.listen(3030, function() {
   console.log("Chat server listening on port 3030");
 });
+
+var chatServer = require('.lib/chat_server');
