@@ -3,10 +3,168 @@
 	{
 		"selected_items":
 		[
+			[
+				"nam",
+				"name"
+			],
+			[
+				"pre",
+				"previousNameIndex"
+			],
+			[
+				"p",
+				"previousName"
+			],
+			[
+				"e",
+				"emit"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"in",
+				"indexOf"
+			],
+			[
+				"soc",
+				"socket"
+			],
+			[
+				"usersIn",
+				"usersInRoomSummary"
+			],
+			[
+				"user",
+				"userSocketId"
+			],
+			[
+				"users",
+				"usersInRoomSummary"
+			],
+			[
+				"u",
+				"usersInRoom"
+			],
+			[
+				"r",
+				"room"
+			],
+			[
+				"name",
+				"namesUsed"
+			],
+			[
+				"so",
+				"socket"
+			],
+			[
+				"socke",
+				"socket"
+			],
+			[
+				"i",
+				"io"
+			],
+			[
+				"ser",
+				"server"
+			],
+			[
+				"ch",
+				"chatServer"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"l",
+				"lang\tAttr"
+			],
+			[
+				"fun",
+				"function"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 1901,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/chat_server.js",
+			"settings":
+			{
+				"buffer_size": 2605,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 997,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/javascripts/chat.js",
+			"settings":
+			{
+				"buffer_size": 3,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/javascripts/chat_ui.js",
+			"settings":
+			{
+				"buffer_size": 3,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 378,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,10 +173,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 147.0,
-		"last_filter": "sche",
+		"height": 375.0,
+		"last_filter": "inst",
 		"selected_items":
 		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"sche",
 				"ColorSchemeSelector: Next Color Scheme"
@@ -36,7 +198,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 449.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -55,6 +217,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/karsten/dev/ws/macpro01/sublime/learn-njia",
+		"/Users/karsten/dev/ws/macpro01/sublime/learn-njia/public",
+		"/Users/karsten/dev/ws/macpro01/sublime/learn-njia/public/javascripts",
+		"/Users/karsten/dev/ws/macpro01/sublime/learn-njia/public/stylesheets"
+	],
 	"file_history":
 	[
 		"/Users/karsten/none/dokumente/Finanzen/Steuer/2010/Familie_Gresch.s11",
@@ -132,8 +301,180 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1901,
+								1901
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/chat_server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2605,
+								2605
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 446.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								937,
+								937
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/javascripts/chat.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/javascripts/chat_ui.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/stylesheets/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -143,7 +484,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -168,6 +509,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.9o:///Users/karsten/dev/ws/macpro01/sublime/learn-njia":
+	{
+		"height": 102.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -211,10 +556,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 283.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
