@@ -9,3 +9,7 @@ Chat.prototype.sendMessage = function(room, text) {
   };
   this.socket.emit('message', message);
 };
+
+
+Chat.prototype.changeRoom = function() {
+  }
