@@ -19,5 +19,16 @@ Chat.prototype.changeRoom = function(room){
 
 
 Chat.prototype.processCommand = function(room){
-  
+  var words;
+  var command;
+  var message;
+
+  switch(command) {
+
+    default: 
+      break;
+  }
+
+  return message;
+
 }
