@@ -10,8 +10,8 @@ function processUserInput(chatApp, socket) {
   var message = $('#send-message'.val();
   var systemMessage;
 
-  if() {
-
+  if(message.charAt(0) == '/') {
+    $('#messages').append(divSystemContentElement(message));
   } else {
 
   }
