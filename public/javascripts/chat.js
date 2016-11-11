@@ -24,6 +24,12 @@ Chat.prototype.processCommand = function(room){
   var message false;
 
   switch(command) {
+    case 'join':
+      break;
+
+    case 'nick':
+      break;  
+
 
     default: 
       break;
