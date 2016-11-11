@@ -6,6 +6,16 @@ function divSystemContentElement(message) {
   return $('<div></div>').html('<i>' + message + '</i>');
 }
 
-function processUserInput() {
-  
+function processUserInput(chatApp, socket) {
+  var message = $('#send-message'.val();
+  var systemMessage;
+
+  if() {
+
+  } else {
+
+  }
+
+  $('#send-message'.val('');
+
 }
