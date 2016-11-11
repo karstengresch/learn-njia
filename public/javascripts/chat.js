@@ -25,13 +25,20 @@ Chat.prototype.processCommand = function(room){
 
   switch(command) {
     case 'join':
+      words.shift();
+      var rooms = words.join(' ');
+      this.changeRoom(room);
       break;
 
     case 'nick':
+      words.shift();
+      var name = words.join(' ');
+      this.socket.emit('nameAttempt', name);
       break;  
 
 
     default: 
+      message = 'Unrecognised command';
       break;
   }
 
