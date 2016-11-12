@@ -21,3 +21,10 @@ function processUserInput(chatApp, socket) {
   $('#send-message'.val('');
 
 }
+
+var socket = io.connect();
+
+$document.ready(function () {
+
+  
+});
