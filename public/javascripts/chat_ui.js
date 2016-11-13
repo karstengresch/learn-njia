@@ -47,6 +47,11 @@ $document.ready(function () {
   
   }, 1000);
   
+  $('#send-message).focus();
+  
+    
+  
+  
   
   
   
