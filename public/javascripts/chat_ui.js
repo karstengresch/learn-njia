@@ -27,19 +27,19 @@ var socket = io.connect();
 $document.ready(function () {
   var chatApp = new Chat(socket);
   
-  socket.on('', function () {
+  socket.on('nameResult', function () {
     
   }
   
-  socket.on('', function () {
+  socket.on('joinResult', function () {
     
   }
   
-  socket.on('', function () {
+  socket.on('message', function () {
     
   }
   
-  socket.on('', function () {
+  socket.on('rooms', function () {
     
   }
   
