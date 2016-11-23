@@ -27,8 +27,16 @@ var socket = io.connect();
 $document.ready(function () {
   var chatApp = new Chat(socket);
   
-  socket.on('nameResult', function () {
+  socket.on('nameResult', function (result) {
+    var message;
     
+    if (result.success) {
+      message = 'You are known as ' + result.name + '.';
+      
+    } else {
+      message = result.message;
+    }
+    $('#messages').append(divSystemContentElement('Room chamged'));
   }
   
   socket.on('joinResult', function () {
