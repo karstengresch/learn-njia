@@ -44,8 +44,9 @@ $document.ready(function () {
     $('#messages').append(divSystemContentElement('Room changed'));
   }
   
-  socket.on('message', function () {
-    
+  socket.on('message', function (message) {
+    var newElement = $('<div></div>').text(message.text);
+    $('#messages').append(newElemwmt);
   }
   
   socket.on('rooms', function () {
