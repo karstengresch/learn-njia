@@ -49,7 +49,15 @@ $document.ready(function () {
     $('#messages').append(newElemwmt);
   }
   
-  socket.on('rooms', function () {
+  socket.on('rooms', function (rooms) {
+    $('#room-list').empty();
+    
+    for (room in rooms) {
+      room = room.substring(1, room.length);
+      if (room != '') {
+       $('#room-list').append(divEscapedContemtElememt(room)); 
+      }
+    } 
     
   }
   
