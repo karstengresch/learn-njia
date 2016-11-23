@@ -36,11 +36,12 @@ $document.ready(function () {
     } else {
       message = result.message;
     }
-    $('#messages').append(divSystemContentElement('Room chamged'));
+    $('#messages').append(divSystemContentElement(message));
   }
   
-  socket.on('joinResult', function () {
-    
+  socket.on('joinResult', function (result) {
+    $('#room').text(result.room);
+    $('#messages').append(divSystemContentElement('Room changed'));
   }
   
   socket.on('message', function () {
