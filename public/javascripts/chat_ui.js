@@ -20,7 +20,7 @@ function processUserInput(chatApp, socket) {
 
   $('#send-message'.val('');
 
-}
+} 
 
 var socket = io.connect();
 
@@ -74,14 +74,7 @@ $document.ready(function () {
   $('#send-message').focus();
   
   $('#send-form').submit(function(){
-  
+    processUserInput(chatApp, socket);
+    return false
   });
-  
-
-  
-  
-  
-  
-  
-  
 });
